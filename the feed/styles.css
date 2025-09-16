@@ -169,6 +169,14 @@ h2 {
     font-family: 'DK Cool Crayon', sans-serif; 
 }
 
+.back a {
+  display: flex;
+  color: rgb(89, 39, 39); 
+  justify-content: center;
+  font-weight: bold;
+  text-decoration: none; 
+}
+
 @font-face {
     font-family: 'Flowers Kingdom';
     src: url('fonts/Flowers Kingdom.ttf') format('truetype');
