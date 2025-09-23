@@ -38,12 +38,12 @@
     word-spacing: 80px;
     font-family: 'Flowers Kingdom';
     font-size: 13px;
+    height: 27px;
 }
 
 .nav-bar a.active {
   color: rgb(89, 39, 39);
   font-weight: bold;
-  text-decoration: underline; 
 }
 
 a {
@@ -56,55 +56,6 @@ body {
     background-color: rgb(191, 192, 217);
     font-family: 'L';
     color: rgb(88, 2, 88);
-}
-
-h3 {
-    text-align: center;
-    font-size: 20px;
-    font-family: 'Tropi Land';
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
-
-.photo-strips {
-  display: flex;
-  justify-content: center;
-  gap: 50px; 
-}
-
-
-.strip {
-  display: flex;
-  flex-direction: column; 
-  align-items: center;
-}
-
-.polaroid {
-  background-color: white;
-  padding: 10px 10px 30px 10px; /* extra padding at bottom for caption */
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
-  text-align: center;
-  width: 150px;
-}
-
-.polaroid img {
-  width: 100%;
-  display: block;
-  border-radius: 2px;
-}
-
-.row {
-  display: flex;
-  gap: 10px;
-}
-
-.row img {
-  width: 150px; 
-  height: auto; 
-  border-radius: 8px;
-  object-fit: cover;
 }
 
 h1 {
@@ -123,6 +74,45 @@ h2 {
     align-items: center;
 }
 
+.photo-strips {
+  display: flex;
+  justify-content: center;
+  gap: 50px; 
+}
+
+.strip {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  background: white;
+  padding: 15px;
+  border: 2px solid #ffffff;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
+
+.strip .polaroid {
+  background: none;
+  padding: 0; 
+  border: none;
+  margin: 0;
+  width: 220px;
+}
+
+.strip .polaroid img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.row img {
+  width: 150px; 
+  height: auto; 
+  object-fit: cover;
+}
 
 .paragraph-wrapper {
     max-width: 60%;
@@ -145,11 +135,9 @@ h2 {
 }
 
 .polaroid {
-    background: #fff;
+    background: #ffffff;
     padding: 10px 10px 25px 10px; 
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
     max-width: 200px;
-    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .polaroid img {
@@ -162,8 +150,9 @@ h2 {
     box-shadow: 10px 10px 25px rgba(0,0,0,0.4);
 }
 
-.caption {
-    margin-top: 8px;
+.strip .caption {
+    margin-top: -5px;
+    margin-bottom: 10px;
     font-size: 14px;
     color: #333;
     font-family: 'DK Cool Crayon', sans-serif; 
@@ -180,11 +169,6 @@ h2 {
 @font-face {
     font-family: 'Flowers Kingdom';
     src: url('fonts/Flowers Kingdom.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Lostar';
-    src: url('fonts/Lostar.ttf') format('truetype');
 }
 
 @font-face {
