@@ -150,11 +150,11 @@ h2 {
     box-shadow: 10px 10px 25px rgba(0,0,0,0.4);
 }
 
-.strip .caption {
-    margin-top: -5px;
-    margin-bottom: 10px;
+.caption {
+    margin-top: 10px;
     font-size: 14px;
     color: #333;
+    text-align: center;
     font-family: 'DK Cool Crayon', sans-serif; 
 }
 
