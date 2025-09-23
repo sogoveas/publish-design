@@ -109,7 +109,7 @@ h2 {
 }
 
 .row img {
-  width: 150px; 
+  width: 250px; 
   height: auto; 
   object-fit: cover;
 }
@@ -137,7 +137,7 @@ h2 {
 .polaroid {
     background: #ffffff;
     padding: 10px 10px 25px 10px; 
-    max-width: 200px;
+    max-width: 250px;
 }
 
 .polaroid img {
